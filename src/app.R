@@ -29,7 +29,7 @@ ui <- fluidPage(
                   value = 10),
     ),
     mainPanel(
-      textOutput("prediction")
+      h2(tableOutput("prediction"))
     )
   )
 )
@@ -49,9 +49,15 @@ server <- function(input, output) {
     scaled_data <- as.data.frame(normalize(user_data))
     prediction <- predict(forest_model, scaled_data)
 
-    data.frame('Wine Quality Prediction' = prediction)
-  })
+    # Convert back to original scale
+    original_pred = (prediction * (max(df$quality) - min(df$quality))) + min(df$quality)
 
+    result <- ifelse(original_pred > 5.2, "High", "Low")
+
+    data.frame("Wine_quality_index" = original_pred,
+              "Wine_quality" = result
+    )
+  })
 }
 
 shinyApp(ui = ui, server = server)
