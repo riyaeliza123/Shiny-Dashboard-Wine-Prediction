@@ -1,0 +1,9 @@
+name: 532_ind_proj_riya
+channels:
+ - conda-forge
+dependencies:
+ - r-base=4.1
+ - r-tidyverse
+ - r-shinydashboard
+ - r-randomForest
+ - r-caret
