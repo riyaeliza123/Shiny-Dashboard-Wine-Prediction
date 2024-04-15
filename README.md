@@ -1,2 +1,3 @@
-# Shiny-Dashboard-Wine-Prediction
-Shiny dashboard (R) to do prediction of wine quality - work in progress
+# DSCI_532_individual-assignment_riya2023
+
+DSCI 532 individual-assignment for Riya Eliza Shaju (riya2023)

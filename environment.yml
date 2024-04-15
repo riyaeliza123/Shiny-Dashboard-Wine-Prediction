@@ -7,3 +7,4 @@ dependencies:
  - r-shinydashboard
  - r-randomForest
  - r-caret
+ - r-shiny

@@ -1,3 +1,5 @@
+# Using an old notebook : https://www.kaggle.com/code/riyaelizashaju/wine-quality-random-forest/notebook
+
 library(randomForest)
 library(caret)
 
