@@ -1,7 +1,12 @@
 library(shiny)
+library(randomForest)
+library(shinythemes)
+library(caret)
+library(tidyverse)
 
-df <- read.csv("data/filtered/filtered_data.csv")
-forest_model <- readRDS("model/forest_model.rds")
+
+df <- read.csv("../data/filtered/filtered_data.csv")
+forest_model <- readRDS("../model/forest_model.rds")
 
 ui <- fluidPage(
   titlePanel("Wine Quality Prediction"),
