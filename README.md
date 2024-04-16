@@ -1,5 +1,7 @@
 # Wine quality prediction
 
+**Link to the dashboard**: https://0wsp08-riya-eliza.shinyapps.io/WineQualityPrediction/
+
 ## About
 This Shiny dashboard provides a prediction of wine quality based on user inputs for various wine attributes. It takes into account citric acid level, residual sugar, density, pH, and alcohol level to predict the quality of the wine on a scale between 5 and 6. The dashboard then classifies the quality as either high or low based on a threshold of 5.2.
 
