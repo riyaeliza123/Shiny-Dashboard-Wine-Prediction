@@ -10,7 +10,7 @@ The motivation behind this dashboard is to provide a simple and interactive tool
 ## App description
 This Shiny app is a user-friendly dashboard where users can input values for citric acid level, residual sugar, density, pH, and alcohol level to predict the quality of wine. The app uses a random forest model to make predictions and then classifies the quality as either high or low based on a threshold value. Users can quickly see how changing these input values affects the predicted quality of the wine.
 
-![alt text](https://github.ubc.ca/MDS-2023-24/DSCI_532_individual-assignment_riya2023/blob/master/img/prototypes/V4.png)
+![alt text](https://github.com/riyaeliza123/Shiny-Dashboard-Wine-Prediction/blob/main/img/prototypes/V4.png)
 
 ## Manual installation steps
 (If you wish to run it locally)
