@@ -23,7 +23,7 @@ ui <- fluidPage(
                   min = min(df$pH),
                   max = max(df$pH),
                   value = 3),
-      sliderInput("alcohol", "Alcohol",
+      sliderInput("alcohol", "Alcohol percentage:",
                   min = min(df$alcohol),
                   max = max(df$alcohol),
                   value = 10),
