@@ -1,0 +1,12 @@
+name: WineQualityPrediction
+title: WineQualityPrediction
+username: 0wsp08-riya-eliza
+account: 0wsp08-riya-eliza
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11774957
+bundleId: 8501596
+url: https://0wsp08-riya-eliza.shinyapps.io/WineQualityPrediction/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
