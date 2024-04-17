@@ -12,11 +12,11 @@ ui <- fluidPage(
   titlePanel("Wine Quality Prediction"),
   sidebarLayout(
     sidebarPanel(
-      sliderInput("citric_acid", "Citric Acid:",
+      sliderInput("citric_acid", "Citric Acid (mg):",
                   min = min(df$citric.acid),
                   max = max(df$citric.acid),
                   value = 0.4),
-      sliderInput("residual_sugar", "Residual Sugar:",
+      sliderInput("residual_sugar", "Residual Sugar (mg):",
                   min = min(df$residual.sugar),
                   max = max(df$residual.sugar),
                   value = 4),
@@ -28,7 +28,7 @@ ui <- fluidPage(
                   min = min(df$pH),
                   max = max(df$pH),
                   value = 3),
-      sliderInput("alcohol", "Alcohol percentage:",
+      sliderInput("alcohol", "Alcohol (%):",
                   min = min(df$alcohol),
                   max = max(df$alcohol),
                   value = 10),

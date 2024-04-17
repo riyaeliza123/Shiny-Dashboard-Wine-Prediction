@@ -1,1 +1,0 @@
-install.packages(c("tidyverse", "shinydashboard", "randomForest", "caret", "shiny"), dependencies = TRUE)
